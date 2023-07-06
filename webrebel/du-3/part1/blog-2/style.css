@@ -1,0 +1,12 @@
+body {
+    background: #4A525A;
+}
+
+p {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: Verdana, system-ui, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #eeeeee;
+   
+}

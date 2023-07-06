@@ -1,0 +1,47 @@
+
+* {
+    outline: 1px solid red;
+}
+
+code {
+    color: #fff;
+    background: #9f3fa3;
+    display: block;
+    padding: 25px;
+    font: 14px/24px Monaco, Consolas, "Lucida Console", monospace;
+    text-align: center;
+}
+
+#wrapper {
+    width: 700px; 
+    margin: 0 auto;
+}
+
+#wrapper header,
+#wrapper section,
+#wrapper aside,
+#wrapper footer {
+    margin: 0 0 25px 0;
+}
+
+#wrapper section {
+    float: left;
+    width: 425px;
+}
+
+#wrapper aside {
+    float: right;
+    width: 275px;
+}
+
+.group::before,
+.group::after {
+    content: "";
+    display: table;
+}
+.group::after {
+    clear: both;
+}
+.group {
+    *zoom: 1;
+}

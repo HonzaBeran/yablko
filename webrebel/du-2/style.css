@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Glegoo:wght@400;700&display=swap');
+
+
+/* 'ALL SELECTORS' */
+
+* {
+    /* outline: 0.5px solid black; */
+}
+
+::selection {
+    background: #FFF174;
+}
+
+
+/* MAIN THINGS */
+
+html {
+    margin: 0;
+    padding: 0;
+} 
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Glegoo', serif;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+}
+
+.h1-different-letter {
+    color: #FFF174;
+}
+
+.h1-different-letter:hover {
+    display: inline-block;
+    transition: .5s;
+    transform: translate(0px, -10px);
+}
+
+h2 {
+    font-family: 'Glegoo', serif;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    line-height: 25pt;
+    text-align: justify;
+}
+
+strong {
+    background-color: rgb(194, 63, 63);
+    color: #EFEFEF;
+    padding: 1px 5px;
+    border-radius: 11px;
+}
+
+em {
+    text-decoration: underline;
+    text-decoration-color: #FFF174;
+    text-decoration-thickness: 2px;
+}
+
+
+
+/* HEADER */
+
+header {
+    padding: 5px 10px;
+    /* border-bottom: 1px solid black; */
+    width: 70vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    /* text-decoration-skip: 10px; */
+    text-decoration-thickness: 3px;
+    /* text-decoration-skip-ink: 10px; */
+    text-decoration-color: #FFF174;
+}
+
+.logo {
+    height: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+
+
+/* MAIN */
+
+main {
+    width: 80vw;
+    margin: 10px auto;
+}
+
+.img-main {
+    width: 350px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-main:hover {
+    transition: .00001s;
+    transform: scaleX(-1);
+}
+
+ul.ability li::marker {
+    color: #ffe81e;
+}
+
+
+ul.social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul.social-media li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 0px;
+}
+
+ul.social-media li a {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #FFF174;
+    text-decoration: none;
+    color: #111;
+}
+
+ul.social-media li a:hover {
+    background-color: #ffe81e;
+}
+
+ul.social-media li a:active {
+    background-color: rgb(194, 63, 63);
+}
+
+
+
+
+/* FOOTER */
+
+footer { 
+    border-top: 1px solid gainsboro;
+}
+
+
+footer p {
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+@media only screen and (min-width: 1400px) {
+    main {
+        width: 50vw;
+    }
+}
+
+
