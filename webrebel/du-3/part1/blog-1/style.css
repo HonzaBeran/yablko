@@ -24,6 +24,13 @@ h1 {
     margin-bottom: 50px;
 }
 
+p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #5d5d5d;
+    margin: 0 15px 15px 15px;
+}
+
 
 /* For floating */
 .group::before,
@@ -156,8 +163,22 @@ aside section {
     padding-bottom: 50px;
 }
 
+aside section p {
+    margin: 0 10px 0px 10px;
+}
+
+.divided li a {
+    color: #D52349;
+    text-decoration: underline;
+}
+
+.divided li a:hover {
+    text-decoration: none;
+}
+
 aside section .button {
-    margin: 0 20px;
+    display: inline-block;
+    margin: 10px 10px 0px 20px;
     padding: 15px;
     border-radius: 7px;
 
@@ -165,7 +186,6 @@ aside section .button {
     line-height: 28px;
     font-weight: 700;
     text-decoration: none;
-
 
     background: #252122;
     color: #FFF;
