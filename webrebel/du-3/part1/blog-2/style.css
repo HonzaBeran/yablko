@@ -1,12 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400&family=Oswald:wght@200;300;400&display=swap');
+
+
+
 body {
-    background: #4A525A;
+    background: #F6EDE8;    
+    font-size: 100%;
+}
+
+.ref-to-article {
+    font-size: 0.7rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    color: #121212;
+    text-decoration: none;
+}
+
+.ref-to-article::after {
+    content: ">";
+    margin-left: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
 }
 
 p {
-    font-size: 12px;
-    line-height: 22px;
-    font-family: Verdana, system-ui, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    font-family: 'Bitter', serif;
     font-weight: 400;
-    color: #eeeeee;
-   
+    color: #121212;  
+}
+
+.desc {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+h2 {
+    font-weight: 400;
+    font-family: 'Bitter', serif;
+}
+
+h3 {
+    font-weight: 400;
+    font-family: 'Bitter', serif;
+}
+
+
+
+.article-wrapper {
+    margin: 50px 10% 0 10%;
+    max-width: 50vw;
+}
+
+aside {
+    margin: 50px 0 0 0;
+    max-width: 20vw;
+}
+
+img {
+    width: 100%;
+    margin: auto;
 }
