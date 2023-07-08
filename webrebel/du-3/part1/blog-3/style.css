@@ -1,47 +1,55 @@
+@import "wrapper.css";
+
+/* TAGS FOR ALL DOCUMENT */
 
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */ 
 }
 
-code {
-    color: #fff;
-    background: #9f3fa3;
-    display: block;
-    padding: 25px;
-    font: 14px/24px Monaco, Consolas, "Lucida Console", monospace;
-    text-align: center;
+body {
+    background-color: #4A525A;
 }
 
-#wrapper {
-    width: 700px; 
-    margin: 0 auto;
+h1, h2, h3, p, a {
+    color: #ddd;
 }
 
-#wrapper header,
-#wrapper section,
-#wrapper aside,
-#wrapper footer {
-    margin: 0 0 25px 0;
+h1 {
+    font-size: 1.2rem;
 }
 
-#wrapper section {
-    float: left;
-    width: 425px;
+h2 {
+    font-size: 1.1rem;
 }
 
-#wrapper aside {
-    float: right;
-    width: 275px;
+h3 {
+    font-size: 1rem;
 }
 
-.group::before,
-.group::after {
-    content: "";
-    display: table;
+strong {
+    text-transform: uppercase;
 }
-.group::after {
-    clear: both;
+
+/* HEADER */
+
+header {
+    margin: 0vw 0px 0px 10%;
+    width: 250px;
 }
-.group {
-    *zoom: 1;
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 780px) {
+    header {
+        width: 150px;
+    }
+}
+
+/*POSITIONING PAGE*/
+.box {
+    margin: 50px 10vw 50px 10vw;
+    padding: 0 20px;
 }
